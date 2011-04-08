@@ -13,6 +13,6 @@ fastboot boot gb-recovery.img
 == Install boot-gb-*.zip under RecoveryMode ==
 
 == Install gapps-gb-20110307.zip ==
- 1. goto gapps site http://goo-inside.me/google-apps/
- 2. download gapps-gb-20110307-signed.zip
- 3. install gapps-gb under recovery mode
+ # goto gapps site http://goo-inside.me/google-apps/
+ # download gapps-gb-20110307-signed.zip
+ # install gapps-gb under recovery mode
