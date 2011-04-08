@@ -5,6 +5,8 @@
 fastboot flash system system.img
 }}}
 
+You have to install system.img first. (this image may contains older kernel modules)
+
 == boot with gb-recovery.img ==
 {{{
 fastboot boot gb-recovery.img
@@ -16,3 +18,30 @@ fastboot boot gb-recovery.img
  # goto gapps site http://goo-inside.me/google-apps/
  # download gapps-gb-20110307-signed.zip
  # install gapps-gb under recovery mode
+
+== Howto Manually Install boot.img with adb shell ==
+
+*Step 1.* adb push boot img.
+{{{
+adb push boot-gb.img /cache/
+
+ or
+
+adb push boot-gb.img /sdcard/
+}}}
+*Step 2.* flash boot img onto boot partition.
+{{{
+adb shell flash_image boot /cache/boot-gb.img
+
+ or
+
+adb shell flash_image boot /sdcard/boot-gb.img
+}}}
+*Step 3* install kernel modules.
+{{{
+adb remount
+adb shell umount /system/lib/modules
+adb push modules.sqf /system/lib/modules/
+adb push wireless.ko /system/lib/modules/
+busybox mount -o loop /system/lib/modules/modules.sqf /system/lib/modules
+}}}
