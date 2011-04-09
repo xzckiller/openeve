@@ -1,4 +1,5 @@
 #summary Recovery Mode
+#labels Featured,Phase-Deploy
 
 CyanogenMod 7.0 support clockwork recovery.img
 
