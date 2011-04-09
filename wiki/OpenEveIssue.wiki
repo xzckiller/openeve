@@ -1,0 +1,3 @@
+#summary OpenEve kernel issue
+
+http://dev.naver.com/projects/openeve/issue
