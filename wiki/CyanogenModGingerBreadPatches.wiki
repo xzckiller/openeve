@@ -1,0 +1,4 @@
+#summary GingerBread Patches for CyanogenMod 7.0
+
+http://code.google.com/p/openetna/issues/detail?id=443
+----
