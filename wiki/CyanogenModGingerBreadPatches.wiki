@@ -30,6 +30,10 @@ serise patch sets
 == MMS ==
  * OpenEtna framework_base 9e6193
 
+== Keyboard Layout ==
+ * https://github.com/OpenEtna/android_frameworks_base/commit/8182915bb58e19b00ba351b193974bc95f3164e2
+  * Ignore error in a KeyLayoutMap parsing
+
 == Camera ==
 
 == FM Radio ==
