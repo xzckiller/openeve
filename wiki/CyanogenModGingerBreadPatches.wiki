@@ -32,7 +32,11 @@ serise patch sets
 
 == Keyboard Layout ==
  * https://github.com/OpenEtna/android_frameworks_base/commit/8182915bb58e19b00ba351b193974bc95f3164e2
-  * Ignore error in a KeyLayoutMap parsing
+  * Ignore error in a KeyLayoutMap parsing (by polytheus)
+
+== Keypad Slide ==
+ * https://github.com/OpenEtna/android_frameworks_base/commit/1e5c4d1cab76d7fec5be94e75aff39955dbb3cc0
+  * Fix for the slide mechanism (by polytheus)
 
 == Camera ==
 
