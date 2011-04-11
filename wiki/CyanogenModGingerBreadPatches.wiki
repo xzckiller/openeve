@@ -32,12 +32,15 @@ serise patch sets
 
 == Keyboard Layout ==
  * https://github.com/OpenEtna/android_frameworks_base/commit/8182915bb58e19b00ba351b193974bc95f3164e2
-  * Ignore error in a KeyLayoutMap parsing (by polytheus)
+  * Ignore error in a KeyLayoutMap parsing (by Polytheus)
 
 == Keypad Slide ==
  * https://github.com/OpenEtna/android_frameworks_base/commit/1e5c4d1cab76d7fec5be94e75aff39955dbb3cc0
-  * Fix for the slide mechanism (by polytheus)
+  * Fix for the slide mechanism (by Polytheus)
 
+== apps/Settings.apk ==
+ * https://github.com/OpenEtna/android_packages_apps_Settings/commit/ab05fefadcf8f9ba0f907f6267d6ef452aa34008
+  * Added factory, modem and hardware version to "About phone" dialog (by Polytheus)
 == Camera ==
 
 == FM Radio ==
