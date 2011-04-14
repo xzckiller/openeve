@@ -1,4 +1,5 @@
 #summary Keyboard Character Mapping
+#labels Featured
 
 == KeyboardLayout ==
 eve_qwerty.kl is loaded at boot time by system_server process *at once*.
