@@ -3,7 +3,7 @@
 
 == KeyboardLayout ==
 eve_qwerty.kl is loaded at boot time by system_server process *at once*.
-that why It is just simple text.
+thats why It is just simple text.
 
 KeyboardLayout contains SCANCODE KEYCODE mappings. like as
 
@@ -25,13 +25,13 @@ key 23    I
 key 24    O
 key 25    P
 }}}
-You can change `*.kl` files more easily but It is not recommended to do that.
-If you change A<=>Q by `*.kl` it effects all other `*.kcm` files and make some `*.kcm` file useless.
+You can change `*.kl` files more easily but It is *not recommended* to do that.
+If you change A<=>Q by `*.kl` it effects all other `*.kcm` files and make some `*.kcm` useless.
 
 But you can change some keyboard behavior at `SCANCODE` level. you can change `HOME<=>BACK`, `ALT<=>SHIFT` etc.
 
 == KeyboardMapping ==
-It is more flexiable format.  `*.kcm` file is loaded by applications.
+It is more flexiable format.  `*.kcm` is loaded by applications.
 
 It is provided as binary format.
 It is loaded by every apps and that's why it is compiled binary.
