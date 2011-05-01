@@ -1,0 +1,9 @@
+#summary HardwareCodes for EVE
+
+== Encoding ==
+ * libOmxVidEnc.so
+
+== Decoding ==
+ * libOmxH264Dec.so
+ * libOmxMpeg4Dec.so
+ * libOmxWmvDec.so
