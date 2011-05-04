@@ -1,3 +1,4 @@
 #summary CyanogenMod
 
-http://www.cyanogenmod.com/
+ * http://www.cyanogenmod.com/
+ * http://review.cyanogenmod.com/
