@@ -23,8 +23,8 @@ fastboot boot my-recovery.img
   # select *YES*
   # press *BACK*
 ----
- # you have to install boot*.zip under RecoveryMode
- # you can also install gapps-gb-*zip/update-*.zip under RecoveryMode
+ # you have to install `boot*.zip` under RecoveryMode
+ # you can also install `gapps-gb-*zip/update-*.zip` under RecoveryMode
 
 == Clockwork Recovery ==
 Some useful guide for the clockwork recovery menu
