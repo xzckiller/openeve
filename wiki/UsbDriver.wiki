@@ -5,5 +5,5 @@
 you have to install USB Driver for your GW620/KH5200.
 
  # goto http://www.lg.com/us/support/mc-support/mobile-phone-support.jsp
- # select "MOBILE DRIVERS"
- # select appropriate driver for your device.
+ # before installation, select "*`Detailed Guide`*" tab to see installation guide.
+ # or select *"MOBILE DRIVERS"* and select appropriate driver for your device.
