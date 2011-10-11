@@ -16,9 +16,13 @@ fastboot boot gb-recovery.img
 }}}
 
 == Install boot-gb-*.zip under RecoveryMode ==
-for GB 2.3.5 / GB 2.3.7
+for GB 2.3.5
  # boot-gb235-224mb is recommended.
  # boot-gb235-236mb is confirmed for V20G
+----
+for GB 2.3.7
+ # boot-gb237-224mb is recommended.
+ # boot-gb237-236mb is confirmed for V20G
 
 == Install gapps-gb-2011xxxx.zip ==
  # goto gapps site http://goo-inside.me/google-apps/
