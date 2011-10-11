@@ -16,11 +16,19 @@ fastboot boot gb-recovery.img
 }}}
 
 == Install boot-gb-*.zip under RecoveryMode ==
+for GB 2.3.5 / GB 2.3.7
+ # boot-gb235-224mb is recommended.
+ # boot-gb235-236mb is confirmed for V20G
 
-== Install gapps-gb-20110307.zip ==
+== Install gapps-gb-2011xxxx.zip ==
  # goto gapps site http://goo-inside.me/google-apps/
- # download gapps-gb-20110307-signed.zip
+ # download gapps-gb-2011xxxx-signed.zip
  # install gapps-gb under recovery mode
+----
+ # for GB2.3.4, GB2.3.5 - gapps-gb-20110613-signed.zip recommended
+
+See also
+http://wiki.cyanogenmod.com/index.php?title=Latest_Version/Google_Apps
 
 == Howto Manually Install boot.img with adb shell ==
 
